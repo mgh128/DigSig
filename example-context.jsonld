@@ -1,0 +1,12 @@
+{
+    "@context": {
+        "schema":"https://schema.org/",
+        "gs1":"https://gs1.org/voc/",
+        "xsd":"http://www.w3.org/2001/XMLSchema#",
+        "gs1:expirationDate": {"@type":"xsd:date"},
+        "id": "@id",
+        "a": "@type",
+        "lang": "@language",
+        "value": "@value"
+    }
+}
