@@ -1,0 +1,30 @@
+{
+    "@context": ["https://mgh128.github.io/DigSig/example-context.jsonld"],
+    "id": "https://id.gs1.org/01/05000158101289/10/ABC123/21/98765XYZ42?17=210131",
+    "a": [ "gs1:Product", "schema:IndividualProduct", "schema:Drug"],
+    "gs1:expirationDate": "2021-01-31",
+    "gs1:productName": "Nurofen Express 256mg 16 Caplets",
+    "gs1:functionalName": [{"value": "oral analgesic painkiller","lang": "en"}],
+    "gs1:gtin": "05000158101289",
+    "gs1:hasBatchLotNumber": "ABC123",
+    "gs1:hasSerialNumber": "98765XYZ42",
+    "schema:activeIngredient": [{"value":"Sodium ibuprofen","lang":"en"}],
+    "schema:availableStrength": [
+      {
+        "a": "schema:DrugStrength",
+        "schema:activeIngredient": [{"value":"Sodium ibuprofen","lang":"en"}],
+        "schema:strengthValue": 256,
+        "schema:strengthUnit": "mg"
+      }
+    ],
+    "schema:doseSchedule": [
+      {
+        "a": "schema:DoseSchedule",
+        "schema:activeIngredient": [{"value":"Sodium ibuprofen","lang":"en"}],
+        "schema:strengthValue": 256,
+        "schema:strengthUnit": "mg",
+        "schema:targetPopulation": [{"value":"adults","lang":"en"}],
+        "schema:frequency": {"value":"Swallow 1 or 2 caplets with water up to three times a day as required. Leave at least 4 hours between doses. Do not take more than 6 tablets in any 24 hour period. Do not give to children under 12 years of age.","lang":"en"}
+      }
+    ]
+}
