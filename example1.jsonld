@@ -14,6 +14,7 @@
     "gs1:expirationDate": "2021-01-31",
     "gs1:productName": "Nurofen Express 256mg 16 Caplets",
     "gs1:functionalName": [{"value": "oral analgesic painkiller","lang": "en"}],
+    "gs1:regulatedProductName": [{"value": "ibuprofen", "lang": "en"}],
     "gs1:gtin": "05000158101289",
     "gs1:hasBatchLotNumber": "ABC123",
     "gs1:hasSerialNumber": "98765XYZ42",
