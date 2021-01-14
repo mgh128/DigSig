@@ -1,0 +1,8 @@
+{
+  "@context": {
+    "@vocab": "https://gs1.org/voc/",
+    "01":"gtin",
+    "21":"hasSerialNumber",
+    "10":"hasBatchLotNumber"
+   }
+}
